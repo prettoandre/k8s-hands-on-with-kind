@@ -20,6 +20,7 @@ kubectl apply -f deployment.yaml
 # when make changes to update deployment
 kubectl replace -f deployment.yaml --force
 
+
 # how expose service
 kubectl expose deployment nginx-deployment --type=NodePort --name=thepumbles-service
 
