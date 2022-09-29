@@ -4,6 +4,9 @@ kind create cluster --name [cluster-name]
 
 Kind get clusters # look all clusters 
 
+kind delete clusters [name]
+
+kind get nodes
 
 # Get kubernetes context: 
 
