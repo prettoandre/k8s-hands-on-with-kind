@@ -1,10 +1,25 @@
 # tools and documentation
 
-https://kubernetes.io/docs/tasks/tools/
+kubectl - https://kubernetes.io/docs/tasks/tools/
 
-https://helm.sh/docs/intro/install/
+Helm - https://helm.sh/docs/intro/install/
 
-https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/
+kind is a tool for running local Kubernetes clusters using Docker container “nodes”.
+kind was primarily designed for testing Kubernetes itself, but may be used for local development or CI. - https://kind.sigs.k8s.io/docs/user/quick-start/ 
+
+K9s is a terminal based UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your deployed applications in the wild. K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources. - https://kind.sigs.k8s.io/docs/user/quick-start/
+
+
+Plugins to use with kubectl - https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/
+
+Plugins repo - https://krew.sigs.k8s.io/plugins/
+
+
+# Terminal with asteroids 
+
+ZSH - https://ohmyz.sh/
+
+Theme ZSH - https://github.com/romkatv/powerlevel10k
 
 
 # kubectl cheat sheet 
