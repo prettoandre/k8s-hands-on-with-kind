@@ -14,9 +14,8 @@ kubectl cluster-info --context [cluster-name]
 
 # Kind create cluster wiht config file: 
  # use the deployment files in cluster-samples folder to understand how you can deploy different types of clusters.
- 
-kind create cluster --name [cluster-name] --config [configuration-file.yaml]  
 
+kind create cluster --name [cluster-name] --config [configuration-file.yaml]  
 
 
 # Kubernetes versions to use with kind: 
